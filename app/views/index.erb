@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
+  <title>Finding Gifs</title>
+  <!-- links to CSS stylesheet in the public directory -->
+  <link rel="stylesheet" href="index.css" >
+  
+  <style>
+    @import url('https://fonts.googleapis.com/css?family=PT+Sans|Raleway');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Raleway', sans-serif;
+}
+
+.home-page {
+  background: url("http://wallpapercave.com/wp/TSlZ57J.jpg") no-repeat center center fixed;
+  height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  text-align:center;
+  color: white;
+  
+}
+
+h1{
+    margin:0;
+    padding-top:15%;
+}
+
+    
+  </style>
+  
+  
+</head>
+<body> 
+
+  <div class="home-page">
+    <div class="content">
+    <h1>Search for a gif!</h1>
+    <form method="POST" action="results">
+      <h2>Search Keyword : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name = "searchkeyword"> <br></h2>
+      <input type="submit">
+    </form>
+    </div>
+  </div>
+
+</body>
+</html>
+

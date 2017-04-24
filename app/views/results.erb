@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Results</title>
+  <!-- links to CSS stylesheet in the public directory -->
+  <link rel="stylesheet" href="index.css" >
+
+
+  <style>
+    @import url('https://fonts.googleapis.com/css?family=PT+Sans|Raleway');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Raleway', sans-serif;
+}
+
+.results-page {
+  background: url("<%= @searchkeyword.image_original_url %>") no-repeat center center fixed;
+  height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  text-align:center;
+  color: white;
+}
+button {
+  text-align:center;
+  color: black;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+img {
+    height:100%;
+    width:100%;
+}
+
+  </style>
+
+</head>
+<body> 
+
+  <div class="results-page">
+      <div class="homebutton">
+    <button><a href="/"><h1>Back</h1></a></button>
+  </div>
+  </div>
+  
+
+</body>
+</html>
